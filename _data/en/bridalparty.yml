@@ -1,15 +1,24 @@
-- name: Massimo Scolaro
+- name: Pascal Dembele
   pic: Massimo2
-  position: Groom's testimony
+  position: Groom's Best Man
 
-- name: Milena Paladin
+- name: Lisanna Paladin
   pic: Milena
-  position: Bride's testimony
+  position: Bridesmaid
 
-- name: Valentino Scolaro
+- name: Alex Wittmann
   pic: Valentino
-  position: Groom's testimony
+  position: Groom's Best Man
 
-- name: Viola Ferraresi
+- name: Sara Petrin
   pic: Viola
-  position: Bride's testimony
+  position: Bridesmaid
+
+- name: Ramil Achmetov
+  pic: Valentino
+  position: Groom's Best Man
+
+- name: Marzia Liuni
+  pic: Viola
+  position: Bridesmaid
+

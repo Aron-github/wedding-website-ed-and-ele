@@ -1,15 +1,24 @@
-- name: Massimo Scolaro
+- name: Pascal Dembele
   pic: Massimo2
   position: Testimone dello sposo
 
-- name: Milena Paladin
+- name: Lisanna Paladin
   pic: Milena
   position: Testimone della sposa
 
-- name: Valentino Scolaro
+- name: Alex Wittmann
   pic: Valentino
   position: Testimone dello sposo
 
-- name: Viola Ferraresi
+- name: Sara Petrin
   pic: Viola
   position: Testimone della sposa
+
+- name: Ramil Achmetov
+  pic: Valentino
+  position: Testimone dello sposo
+
+- name: Marzia Liuni
+  pic: Viola
+  position: Testimone della sposa
+
