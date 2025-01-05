@@ -4,7 +4,9 @@ color:
   secondary: E47F4D
   secondary-dark: B2442C
   muted: 7F7948
-  background: 6D9599
+  background: F5F5F5
+  text: 333333
+  text-inverse: FFFFFF
 
 # Font families
 font:
