@@ -1,0 +1,8 @@
+Check how to improve colors combination from palette
+Change fonts
+Add pictures for background and header
+Add a language flag for every bestman/bridesmaid
+Add bestman/bridesmaid pictures
+Set them in 2 rows of 3 ppl
+Rm public access to my private email
+Add De/Ru pages (Help!!)
