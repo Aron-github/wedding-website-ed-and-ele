@@ -6,3 +6,13 @@
     font-family: "Playfair Display";
     src: url("Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf");
 }
+@font-face {
+    font-family: 'Breathing';
+    src:  url('Breathing/Breathing.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Bellefair";
+    src: url("Bellefair/Bellefair-Regular.ttf");
+}
