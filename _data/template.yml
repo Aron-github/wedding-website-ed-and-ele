@@ -5,10 +5,17 @@ color:
   secondary-dark: B2442C
   muted: 7F7948
   background: F5F5F5
+  card-background: AFC8CA
+  border: 6D9599
+  footer-background: 6D9599
   text: 333333
   text-inverse: FFFFFF
+  hover: 57787A
 
 # Font families
+#font:
+#  primary: 'Playfair Display'
+#  secondary: 'Fira Sans Light'
 font:
-  primary: 'Playfair Display'
-  secondary: 'Fira Sans Light'
+  primary: "'Breathing', cursive"
+  secondary: "'Bellefair', serif"
