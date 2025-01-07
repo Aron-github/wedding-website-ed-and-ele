@@ -19,3 +19,4 @@ color:
 font:
   primary: "'Breathing', cursive"
   secondary: "'Bellefair', serif"
+  tertiary: 'Lato'
