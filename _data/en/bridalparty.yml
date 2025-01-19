@@ -1,23 +1,29 @@
 - name: Pascal Dembele
   pic: pascal
   position: Groom's Best Man
+  language: DE, EN
 
 - name: Lisanna Paladin
-  pic: 2
+  pic: lisanna
   position: Bridesmaid
+  language: IT, EN, DE
 
 - name: Alex Wittmann
-  pic: 3
+  pic: alex
   position: Groom's Best Man
+  language: DE
 
 - name: Sara Petrin
   pic: sarenji
   position: Bridesmaid
+  language: IT, EN
 
 - name: Ramil Achmetov
-  pic: 4
+  pic: ramil
   position: Groom's Best Man
+  language: RU
 
 - name: Marzia Liuni
-  pic: 5
+  pic: marzia
   position: Bridesmaid
+  language: IT, EN
