@@ -6,7 +6,6 @@ Add De/Ru pages (Help!!)
                 _includes/en_data, it_data, ... <- EVERYTHING!!!!
                 _layout/de_default, ru_default 
 Change domain 
-breathing font <-
 Font with cyrillic alphabet!!
 Add save the date
-Add logo
+Add FAQ to every language

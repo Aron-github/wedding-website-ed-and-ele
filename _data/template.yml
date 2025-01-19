@@ -20,6 +20,5 @@ font:
   #primary: "'Batteny', cursive"
   #secondary: "'Bellefair', serif"
   primary: 'Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif'
-  secondary: 'Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif'
-  tertiary: 'Lato'
+  secondary: 'Lato'
   quaternary: "'Breathing', cursive"
