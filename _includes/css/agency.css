@@ -602,7 +602,7 @@ section h3.section-subheading {
 
 .timeline>li {
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
     min-height: 50px;
 }
 
@@ -620,7 +620,7 @@ section h3.section-subheading {
     float: right;
     position: relative;
     width: 100%;
-    padding: 0 20px 0 100px;
+    padding: 0 20px 0 20px;
     text-align: left;
 }
 
@@ -633,8 +633,8 @@ section h3.section-subheading {
 
 .timeline>li .timeline-panel:after {
     right: auto;
-    left: -14px;
-    border-right-width: 14px;
+    left: -15px;
+    border-right-width: 15px;
     border-left-width: 0;
 }
 
@@ -703,7 +703,6 @@ section h3.section-subheading {
     }
 
     .timeline>li {
-        margin-bottom: 100px;
         min-height: 100px;
     }
 
@@ -802,6 +801,7 @@ section h3.section-subheading {
 
 .team-member p {
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 .team-position {
