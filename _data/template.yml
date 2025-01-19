@@ -17,7 +17,9 @@ color:
 #  primary: 'Playfair Display'
 #  secondary: 'Fira Sans Light'
 font:
-  primary: "'Batteny', cursive"
-  secondary: "'Bellefair', serif"
+  #primary: "'Batteny', cursive"
+  #secondary: "'Bellefair', serif"
+  primary: 'Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif'
+  secondary: 'Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif'
   tertiary: 'Lato'
   quaternary: "'Breathing', cursive"
