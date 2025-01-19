@@ -1,5 +1,7 @@
-url: https://walice.github.io
-#baseurl: /wedding-template
+url: https://aron-github.github.io/wedding-website-ed-and-ele/
+# Only if your site type is GitHub Project sites and doesn't have a custom domain,
+# change below value to '/projectname'.
+baseurl: /wedding-website-ed-and-ele
 
 # Site settings
 title: Eleonora & Eduard
@@ -23,4 +25,4 @@ description: "Our wedding website"
 markdown: kramdown
 permalink: pretty
 
-include: ['_en_pages', '_it_pages']
+include: ['_en_pages', '_it_pages', '_de_pages', '_ru_pages']
