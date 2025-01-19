@@ -285,6 +285,7 @@ fieldset[disabled] .btn-m.active {
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
     transition: all ease .35s;
+    margin-top: 15px;
 }
 
 .navbar-default .nav li a:hover,
