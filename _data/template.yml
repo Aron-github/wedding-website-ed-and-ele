@@ -13,12 +13,9 @@ color:
   hover: 57787A
 
 # Font families
-#font:
-#  primary: 'Playfair Display'
-#  secondary: 'Fira Sans Light'
 font:
-  #primary: "'Batteny', cursive"
-  #secondary: "'Bellefair', serif"
   primary: 'Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif'
   secondary: 'Lato'
   quaternary: "'Breathing', cursive"
+  cir_primary: 'Arsenal'
+  cir_secondary: 'PT_Sans'

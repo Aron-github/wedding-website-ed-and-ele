@@ -80,6 +80,10 @@ h6 {
     background-color: #{{ site.data.template.color.background }};
 }
 
+.bg-light-blue {
+     background-color: #{{ site.data.template.color.border }};
+}
+
 .bg-darkest-gray {
     background-color: #{{ site.data.template.color.secondary-dark }};
 }
@@ -355,17 +359,8 @@ fieldset[disabled] .btn-m.active {
         background-color: #222;
     }
 
-/*    .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
-    }*/
 
 }
-
-/*.separator {
-    height: 25px;
-    background-image: url('{{ site.baseurl }}/img/deco/right_colors_border.png');
-    background-repeat: repeat-x;
-}*/
 
 header {
     text-align: center;
@@ -373,7 +368,6 @@ header {
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/backgrounds/title1_vintage.JPG');
     opacity: 0.7;
-    /*background-position: bottom right;*/
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -382,23 +376,6 @@ header {
     -o-background-size: cover;
 }
 
-/*.grid {
-    display: grid;
-    grid-auto-flow: column;
-}
-
-.background-villa {
-    background-image: url('{{ site.baseurl }}/img/backgrounds/villadeidogi.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-.background-caorle {
-    background-image: url('{{ site.baseurl }}/img/backgrounds/caorle.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-}*/
-
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
@@ -406,23 +383,17 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    /*font-family: {{ site.data.template.font.secondary }};*/
     font-family: {{ site.data.template.font.primary }};
-    /*font-family: 'Lato';*/
     font-weight: 300;
     font-size: 22px;
-    /*font-style: italic;*/
     line-height: 22px;
 }
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    /*text-transform: uppercase;*/
     font-family: {{ site.data.template.font.quaternary }};
-    /*font-family: 'stay_classy_sldtregular';*/
     text-shadow: 2px 2px 4px #000000;
     font-size: 75px;
-    /*font-weight: 700;*/
     line-height: 75px;
     padding-bottom: 15px;
 }
@@ -432,43 +403,33 @@ header .intro-text .intro-heading {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/backgrounds/title2_muted.JPG');
+    background-image: url('{{ site.baseurl }}/img/backgrounds/title1_vintage.JPG');
     background-position: top center;
-    /*background-position: top center;*/
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    /*opacity: 0.5;*/
 	}
 
     header .intro-text {
-        /*padding-top: 300px;*/
         padding-top: 280px;
-        /*padding-bottom: 200px;*/
         padding-bottom: 100px;
     }
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        /*font-family: {{ site.data.template.font.secondary }};*/
         font-family: {{ site.data.template.font.primary }};
-        /*font-family: 'Lato';*/
         font-weight: 300;
         font-size: 40px;
-        /*font-style: italic;*/
         line-height: 40px;
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 100px;
-        /*text-transform: uppercase;*/
         font-family: {{ site.data.template.font.quaternary }};
-        /*font-family: 'stay_classy_sldtregular';*/
         text-shadow: 2px 2px 4px #000000;
         font-size: 75px;
-        /*font-weight: 700;*/
         line-height: 75px;
     }
 }
@@ -582,8 +543,6 @@ section h3.section-subheading {
 }
 
 .timeline {
-    /*background-image: url('{{ site.baseurl }}/img/backgrounds/Villa-muted.JPG');
-    background-repeat: no-repeat;*/
     background-position: center center;
     position: relative;
     padding: 0;
