@@ -240,6 +240,10 @@ fieldset[disabled] .btn-m.active {
     color: #{{ site.data.template.color.primary }};
     background-color: #fff;
 }
+.navbar-header {
+    width: 100% !important;
+}
+
 .navbar-default {
     border-color: transparent;
     background-color: #222;
@@ -334,6 +338,16 @@ fieldset[disabled] .btn-m.active {
 }
 
 @media(min-width:768px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-toggle {
+        display: block !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+
     .navbar-default {
         padding: 25px 0;
         border: 0;
