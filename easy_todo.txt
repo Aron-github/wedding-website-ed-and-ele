@@ -1,11 +1,6 @@
-Add bridal party: speaks ...
 Rm public access to my private email
-Add De/Ru pages (Help!!)
-	modify: _data/bridalparty.yml
-                _en_pages, _it_pages, ...
-                _includes/en_data, it_data, ... <- EVERYTHING!!!!
-                _layout/de_default, ru_default 
 Change domain 
-Font with cyrillic alphabet!!
-Add save the date
-Add FAQ to every language
+Add save the date?
+Re-add contact form
+Still not all sections are seen in the top menu?
+Change the gift icon
