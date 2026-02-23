@@ -1,6 +1,9 @@
 Rm public access to my private email
 Change domain 
-Add save the date?
-Re-add contact form
-Still not all sections are seen in the top menu?
-Change the gift icon
+Update all languages for new date --> done
+Add logo --> done
+Change font for main title ==> Eyesome Script (I don't manage!!!)
+Events: put same icons as invitations AND change background to #F7B85D
+Re-add contact form (need to create google form) --> done
+Add deco background with drops?
+Rm background from contact form
