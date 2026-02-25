@@ -7,3 +7,5 @@ Events: put same icons as invitations AND change background to #F7B85D
 Re-add contact form (need to create google form) --> done
 Add deco background with drops?
 Rm background from contact form
+Fix german and russian according to Ed's suggestion --> done
+Add to FAQ info about transportation and kids
