@@ -619,11 +619,11 @@ section h3.section-subheading {
     width: 80px;
     height: 80px;
     margin-left: 0;
-    border: 7px solid #f1f1f1;
+    border: 7px solid #{{ site.data.template.color.secondary }};
     border-radius: 100%;
     text-align: center;
-    color: #FFF;
-    background-color: #{{ site.data.template.color.secondary }};
+    color: #{{ site.data.template.color.secondary }};
+    background-color: #{{ site.data.template.color.background }};
 }
 
 .timeline>li .timeline-image h4 {
@@ -788,9 +788,10 @@ aside.clients img {
 
 section#contact {
     background-color: #{{ site.data.template.color.background }};
-    background-image: url('{{ site.baseurl }}/img/backgrounds/header.gif');
+/*    background-image: url('{{ site.baseurl }}/img/backgrounds/header.gif');
     background-position: center;
     background-repeat: no-repeat;
+*/
 }
 
 /*section#contact .form-group {
@@ -1005,4 +1006,131 @@ height: 0;
     left: 0;
     width: 100% !important;
     height: 100% !important;
+}
+
+/* ---- Mobile timeline override: force a stable flex layout ---- */
+@media (max-width: 768px) {
+
+  /* Remove any UL indentation that shifts the line/text */
+  ul.timeline {
+    position: relative !important;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    list-style: none !important;
+
+    /* draw the vertical line centered in the icon column */
+    background-image: linear-gradient(#6D9599, #6D9599) !important;
+    background-repeat: no-repeat !important;
+    background-size: 2px 100% !important;
+    background-position: 55px 0 !important; /* 80px / 2 */
+  }
+
+  /* Disable the original pseudo-element line */
+  ul.timeline:before {
+    content: none !important;
+    display: none !important;
+  }
+
+  /* Make every item a flex row: [icon column] [text column] */
+  ul.timeline > li,
+  ul.timeline > li.timeline-inverted {
+    display: flex !important;
+    align-items: flex-start !important;
+    gap: 16px !important;
+
+    /* kill legacy float layout assumptions */
+    float: none !important;
+    clear: both !important;
+    position: relative !important;
+
+    /* IMPORTANT: remove legacy left padding that causes "text under icon" */
+    padding-left: 0 !important;
+    margin-bottom: 30px !important;
+    min-height: 0 !important;
+  }
+
+  /* Icon column */
+  ul.timeline > li .timeline-image {
+    position: static !important;  /* legacy CSS often uses absolute */
+    flex: 0 0 80px !important;
+    width: 80px !important;
+    height: 80px !important;
+    margin: 0 !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  ul.timeline > li .timeline-image img {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+  }
+
+  /* Text column: hard-reset legacy offsets that affect non-inverted items */
+  ul.timeline > li .timeline-panel,
+  ul.timeline > li.timeline-inverted .timeline-panel {
+    position: static !important;
+    float: none !important;
+    width: auto !important;
+
+    /* 🔥 this is the key to prevent “text goes under icon” */
+    padding: 0 !important;           /* overrides agency.css mobile padding-left:100px */
+    margin: 0 !important;
+    left: auto !important;
+    right: auto !important;
+
+    flex: 1 1 auto !important;
+    min-width: 0 !important;         /* prevents flex overflow weirdness */
+    box-sizing: border-box !important;
+    text-align: left !important;
+  }
+}
+#events {
+    background-color: #{{ site.data.template.color.background }};
+    background-image: url('{{ site.baseurl }}/img/backgrounds/yellow_drops.png');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 720px auto;
+
+}
+#contact {
+    width: 100%;
+    background-color: #{{ site.data.template.color.background }};
+    background-image: url('{{ site.baseurl }}/img/backgrounds/orange_background.png');
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 640px auto;
+
+}
+#FAQ {
+    width: 100%;
+    background-color: #{{ site.data.template.color.background }};
+    background-image: url('{{ site.baseurl }}/img/backgrounds/green_background.png');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 640px auto;
+
+}
+   
+#travel {
+    width: 100%;
+    background-color: #{{ site.data.template.color.background }};
+    position: relative;
+
+    background: 
+        linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)),
+        url('{{ site.baseurl }}/img/backgrounds/blue_background_2.png');
+
+/*    background-image: url('{{ site.baseurl }}/img/backgrounds/blue_background_2.png');
+*/
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+#bridal_party {
+    padding-top: 80px;
 }
